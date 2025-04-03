@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Nunito", sans-serif;
+
+}
+
+/* hero section start */
+.hero-sction {
+    background-image: url('pic\ 4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: #ffffff;
+    /* opacity: 0.7; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.hero-sction>h1 {
+    padding: 0px 50px 30px 130px;
+    font-size: 38px;
+
+}
+
+/* hero section end*/
+/* about section start */
+.about-section {
+    font-family: "Poppins", sans-serif;
+    background-color: #f98ac7;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-section-container {
+    background-color: #f5d9f1;
+    width: 80%;
+    height: 560px;
+    border-radius: 60px;
+    box-shadow: #ccc 0px 4px 5px;
+    font-family: "Poppins", sans-serif;
+    border: #ebcfde solid 6px;
+}
+
+.about-section-container>h1 {
+    margin: 79px 0px 0px 82px;
+}
+
+.about-section-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-section-content>img {
+    height: 300px;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+
+.about-section-content>p {
+    width: 50%;
+    margin: 0px 0px 55px 40px;
+
+}
+
+/* about section end */
+/* wedding Photography section start here */
+.wedding-section {
+    background-color: #f3f3ff;
+    height: 900px;
+}
+
+.wedding-section>h1 {
+    padding: 49px 0px 66px 171px;
+    font-size: 51px;
+    font-weight: 600;
+}
+
+.wedding-section-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 0px 131px;
+}
+
+.wedding-section-imgs>img {
+    height: 299px;
+    border-radius: 20px;
+    padding:30px;
+}
+
+/* wedding  Photography section end here */
+/* Portrait Photography section start */
+.Portrait-section {
+    height: 570px;
+    background-color: #f3f3ff;
+
+}
+
+.Portrait-section>h1 {
+    padding: 54px 0px 1px 142px;
+    font-weight: 600;
+    font-size: 51px;
+}
+
+.portrait-section-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.portrait-section-img>li {
+    list-style: none;
+    padding: 50px 50px 0px 0px;
+    text-align: center;
+}
+
+.portrait-section-img>li>img {
+    height: 250px;
+    border-radius: 15px;
+    list-style: none;
+    padding: 10px;
+}
+
+
+
+/* Portrait Photography section end */
+
+/* landscape and travel section start */
+.landscapes-travel-section {
+    background-color: #f3f3ff;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.landscapes-travel-left-section>img {
+    height: 460px;
+    width: 350px;
+    border-radius: 5px;
+    margin-left: 200px;
+
+}
+
+.landscapes-travel-right-section>ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+
+}
+
+.landscapes-travel-right-section>ul>li {
+    list-style: none;
+    width: 30%;
+    padding: 20px;
+}
+
+.landscapes-travel-right-section>ul>li>p {
+    word-spacing: 5px;
+    font-size: 20px;
+}
+
+.landscapes-travel-right-section>ul>li>img {
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+/* landscape and travel section end */
+/* Client Testimonials section start */
+.client-testimonials-section {
+    background-color: #f3f3ff;
+    height: 500px;
+
+}
+
+.client-testimonials-section>h1 {
+    padding: 36px 0px 63px 214px;
+    font-weight: 600;
+    font-size: 46px;
+}
+
+.client-testimonials-content {
+    display: flex;
+    justify-content: center;
+}
+
+.clinet-testimonials-content-box {
+    width: 300px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 30px;
+    padding: 30px;
+    border-radius: 30px;
+
+}
+
+
+
+/* Client Testimonials section end */
+/* package section start */
+.package-section {
+    background-color: #f3f3ff;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.package-section>h1 {
+    margin-bottom: 81px;
+    font-size: 45px;
+}
+
+.package-and-pricing-list ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.package-and-pricing-list ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* Adds space between the image and text */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.package-and-pricing-list ul li img {
+    height: 90px;
+}
+
+.package-and-pricing-list ul li div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.package-and-pricing-list ul li:hover {
+    transform: translatey(-30px);
+    cursor: pointer;
+}
+
+/* package section end */
+/* contact and booking section start */
+.contact-section{
+    background-color: #f3f3ff;
+    height: 400px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+
+    
+}
+.contact-section-list img{
+    height: 50px;
+}
+.contact-section-list{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.contact-section-list li{
+    list-style: none;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: 300px;
+    /* Adds space between the image and text */
+    padding: 20px;
+    border-radius: 20px;
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+
+}
+.contact-section>h1{
+    font-size: 45px;
+}
+.contact-section>p{
+    margin-top: 20px;
+}
+.contact-section-list>li>div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.contact-section-list>li>div>h4>a:hover{
+    cursor: pointer;
+    color: #3d4ed3;
+}
+/* contact and booking section end */
